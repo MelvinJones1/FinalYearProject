@@ -1,6 +1,18 @@
-# Ignore node_modules directory
+# Logs
+*.log
+
+# Node Modules
 node_modules/
 
-# Ignore other unnecessary files
-backend/node_modules/
-frontend/node_modules/
+# Build Files
+dist/
+dist-ssr/
+
+# Environment
+.env
+*.local
+
+# Editor Settings
+.vscode/
+.idea/
+.DS_Store
